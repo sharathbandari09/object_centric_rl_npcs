@@ -1,0 +1,17 @@
+# Minimal Requirements for Object-Centric RL NPCs Project
+
+# Core Dependencies
+torch>=1.9.0
+numpy>=1.21.0
+pygame>=2.0.0
+gymnasium>=0.26.0
+matplotlib>=3.5.0
+
+# SLM Program Synthesis (Recommended - Breakthrough Results)
+ollama>=0.1.0
+dataclasses-json>=0.5.0
+
+# Data Analysis
+pandas>=1.3.0
+seaborn>=0.11.0
+scipy>=1.7.0

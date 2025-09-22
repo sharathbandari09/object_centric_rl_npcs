@@ -1,0 +1,13 @@
+# Dynamic SLM-Controlled KeyDoor System Requirements
+
+# Core dependencies
+ollama>=0.1.0
+numpy>=1.21.0
+dataclasses-json>=0.5.0
+
+# Optional dependencies for enhanced functionality
+# Uncomment if needed:
+# torch>=1.9.0
+# transformers>=4.20.0
+# matplotlib>=3.5.0
+# seaborn>=0.11.0

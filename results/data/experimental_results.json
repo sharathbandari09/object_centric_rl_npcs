@@ -1,0 +1,134 @@
+{
+  "training_success": {
+    "BC_Raw": 1.0,
+    "BC_Abstract": 1.0,
+    "MoE_Raw": 1.0,
+    "MoE_Abstract": 1.0,
+    "PPO_Raw": 0.1,
+    "PPO_Abstract": 0.17,
+    "SLM_Synthesis": 1.0
+  },
+  "novel_success": {
+    "BC_Raw": 0.0,
+    "BC_Abstract": 0.0,
+    "MoE_Raw": 0.0,
+    "MoE_Abstract": 0.0,
+    "PPO_Raw": 0.08,
+    "PPO_Abstract": 0.1,
+    "SLM_Synthesis": 1.0
+  },
+  "slm_performance": {
+    "templates": [
+      "T1",
+      "T2",
+      "T3",
+      "T4",
+      "T5",
+      "T6",
+      "T7",
+      "T8",
+      "T9",
+      "T10"
+    ],
+    "success_rate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "response_times": [
+      3.4,
+      3.13,
+      3.5,
+      2.61,
+      3.98,
+      4.34,
+      3.19,
+      4.45,
+      3.2,
+      3.9
+    ],
+    "steps": [
+      12,
+      9,
+      17,
+      9,
+      27,
+      30,
+      6,
+      18,
+      19,
+      18
+    ],
+    "type": [
+      "Training",
+      "Training",
+      "Training",
+      "Training",
+      "Training",
+      "Training",
+      "Novel",
+      "Novel",
+      "Novel",
+      "Novel"
+    ]
+  },
+  "template_complexity": {
+    "T1": {
+      "grid_size": 64,
+      "keys": 1,
+      "complexity": "Low"
+    },
+    "T2": {
+      "grid_size": 64,
+      "keys": 2,
+      "complexity": "Low"
+    },
+    "T3": {
+      "grid_size": 64,
+      "keys": 3,
+      "complexity": "Medium"
+    },
+    "T4": {
+      "grid_size": 36,
+      "keys": 2,
+      "complexity": "Low"
+    },
+    "T5": {
+      "grid_size": 81,
+      "keys": 3,
+      "complexity": "Medium"
+    },
+    "T6": {
+      "grid_size": 100,
+      "keys": 4,
+      "complexity": "High"
+    },
+    "T7": {
+      "grid_size": 49,
+      "keys": 1,
+      "complexity": "Low"
+    },
+    "T8": {
+      "grid_size": 121,
+      "keys": 2,
+      "complexity": "Medium"
+    },
+    "T9": {
+      "grid_size": 64,
+      "keys": 5,
+      "complexity": "High"
+    },
+    "T10": {
+      "grid_size": 144,
+      "keys": 3,
+      "complexity": "High"
+    }
+  }
+}
