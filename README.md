@@ -1,7 +1,7 @@
 # Object-Centric Reinforcement Learning for NPCs: A Comprehensive Analysis
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/release/python-380/)
-[![Paper](https://img.shields.io/badge/Paper-Thesis-green.svg)](masters_thesis.pdf)
+[![Paper](https://img.shields.io/badge/Paper-Thesis-green.svg)](thesis%20docs/masters_thesis.pdf)
 
 This research project investigates the boundaries between reinforcement learning and transformer-based reasoning systems for spatial intelligence tasks. The study demonstrates that **SLM-based program synthesis achieves 100% success with perfect generalization** while traditional RL methods suffer from catastrophic generalization failure.
 
