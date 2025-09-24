@@ -181,23 +181,6 @@ python test_ppo_abstract.py
 python test_ppo_raw.py
 ```
 
-## 📊 Generate Thesis Visualizations
-
-```bash
-cd results/
-
-# Generate all visualizations (30+ charts)
-python run_all_analysis.py
-
-# Or generate specific analysis
-python generate_thesis_visualizations.py    # Core analysis
-python training_analysis.py                 # Training curves
-python statistical_analysis.py              # Statistical tests
-
-# View results
-open results_index.html  # Interactive visualization viewer
-```
-
 ## 🔬 Key Research Findings
 
 ### 1. **SLM Program Synthesis Breakthrough**
