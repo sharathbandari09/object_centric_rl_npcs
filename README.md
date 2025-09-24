@@ -29,6 +29,7 @@ Masters_project/
 │   ├── moe/                        # Mixture of Experts agents
 │   └── ppo/                        # PPO agents
 ├── datasets/                        # Training datasets and generation
+├── dungeon_game/                    # Memory Maze: Exploratory 80×20 benchmarking pygame for future AI agents—80×20
 ├── envs/                           # KeyDoor environment implementations
 ├── experiments/                     # Trained model checkpoints and results
 ├── results/                        # Thesis visualizations and analysis
@@ -201,6 +202,11 @@ python test_ppo_raw.py
 - **Compositional understanding** enables true generalization
 - **Natural language integration** provides spatial reasoning capabilities
 
+### 4. **Memory Maze Exploratory Insights**
+- **AI Evaluation Testbed**: An 80×20 grid-based dungeon crawler designed as a benchmark for assessing next-gen AI game agents' spatial intelligence, memory, and multi-modal capabilities—e.g., invisible mazes test long-term planning, password systems evaluate coordinate/math integration.
+- **Thesis Insights for Future Work**: Documents baseline limitations (e.g., 35-80% VLM accuracy in coordinate recognition and command generation) to guide hybrid AI development; ideal for benchmarking RL, VLM, and SLM agents in complex, dynamic environments
+- **Implementation Note**: Built as an 80×20 grid-based dungeon maze `dungeon_game/` - its a benchmarking game for future ai game agents to prototype and measure progress toward human-level game AI.
+
 ## 📁 Dataset Information
 
 The research uses the **KeyDoor Environment** with:
@@ -294,7 +300,7 @@ This research demonstrates:
 2. **Practical Applications**: Ready-to-deploy spatial reasoning without training
 3. **Theoretical Insights**: Statistical learning vs. symbolic reasoning limitations
 4. **Future Directions**: Hybrid approaches combining RL efficiency with transformer reasoning
-
+5. **Benchmarking Framework**: Memory Maze delivers a custom-engineered puzzle game testbed for next-gen AI agents, offering  to evaluate spatial and multi-modal reasoning capabilities.
 
 ## 👥 Authors
 
