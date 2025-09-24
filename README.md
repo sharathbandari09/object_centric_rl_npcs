@@ -29,7 +29,7 @@ Masters_project/
 │   ├── moe/                        # Mixture of Experts agents
 │   └── ppo/                        # PPO agents
 ├── datasets/                        # Training datasets and generation
-├── dungeon_game/                    # Memory Maze: Exploratory 80×20 benchmarking pygame for future AI agents—80×20
+├── dungeon_game/                    # Memory Maze: Exploratory 80×20 benchmarking pygame for future AI agents
 ├── envs/                           # KeyDoor environment implementations
 ├── experiments/                     # Trained model checkpoints and results
 ├── results/                        # Thesis visualizations and analysis
