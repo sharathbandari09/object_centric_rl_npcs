@@ -94,7 +94,7 @@ python slm_demo.py
 
 ### Option 1: SLM Program Synthesis Only (Recommended)
 
-For the **breakthrough approach** that outperforms all RL methods:
+slm outperforms all RL methods:
 
 ```bash
 cd slm-program-synthesis_keydoor/
