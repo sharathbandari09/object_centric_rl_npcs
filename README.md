@@ -303,7 +303,7 @@ This research demonstrates:
 ## 🙏 Acknowledgments
 
 - Ollama team for the excellent LLM serving framework
-- Llama 3.2 3B model for breakthrough spatial reasoning capabilities
+- Llama 3.2 3B model for spatial reasoning capabilities
 - Research community for foundational work in object-centric learning
 - Open source contributors for the tools and libraries used
 
