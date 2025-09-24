@@ -3,7 +3,7 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/release/python-380/)
 [![Paper](https://img.shields.io/badge/Paper-Thesis-green.svg)](thesis%20docs/masters_thesis.pdf)
 
-This research project investigates the boundaries between reinforcement learning and transformer-based reasoning systems for spatial intelligence tasks. The study demonstrates that **SLM-based program synthesis achieves 100% success with perfect generalization** while traditional RL methods suffer from catastrophic generalization failure.
+This research project investigates the boundaries between reinforcement learning and transformer-based reasoning systems for spatial intelligence tasks. The study demonstrates that **SLM-based program synthesis achieves 100% success with perfect generalization** while traditional RL methods fail to generalize beyond the KeyDoor training distribution (0% success on novel environments).
 
 ## 🎯 Core Research Question
 
@@ -38,7 +38,7 @@ Masters_project/
 │   ├── bc/                         # BC training/testing scripts
 │   ├── moe/                        # MoE training/testing scripts
 │   └── ppo/                        # PPO training/testing scripts
-├── slm-program-synthesis_keydoor/   # SLM Implementation (BREAKTHROUGH)
+├── slm-program-synthesis_keydoor/   # SLM Implementation
 ├── sprites/                        # Game sprites and visual assets
 ├── templates/                      # Environment template definitions
 ```
@@ -222,13 +222,6 @@ The research uses the **KeyDoor Environment** with:
 - **BC Methods**: 100% training → 0% novel
 - **MoE Methods**: 100% training → 0% novel  
 - **PPO Methods**: 10-17% training → 8-10% novel
-
-## 📖 Documentation
-
-- **[Complete Thesis Document](COMPREHENSIVE_THESIS_DOCUMENT.md)** - Full research paper (~15,000 words)
-- **[SLM Implementation Guide](slm-program-synthesis_keydoor/README.md)** - Technical details
-- **[Performance Results](results/README.md)** - Detailed experimental results
-- **[Visualization Guide](results/results_index.html)** - Interactive result viewer
 
 ## 🛠️ Troubleshooting
 
