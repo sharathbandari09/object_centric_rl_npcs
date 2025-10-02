@@ -284,14 +284,6 @@ agent = BCAbstract()
 # Training code...
 ```
 
-### 3. Generate Visualizations
-```python
-from results.generate_thesis_visualizations import ThesisVisualizationGenerator
-
-generator = ThesisVisualizationGenerator()
-generator.generate_all_visualizations()
-```
-
 ## 📈 Research Impact
 
 This research demonstrates:
